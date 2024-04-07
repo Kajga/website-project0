@@ -1,0 +1,194 @@
+*{
+    box-sizing:border-box;
+    font-family:sans-serif;
+    margin:0;
+    padding:0;
+}
+body{
+    overflow-x:hidden;
+    width:100%;
+}
+nav{
+    height:60px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    text-wrap:nowrap;
+    background-color:#F3F8FF;
+    padding-right:5%;
+    font-size:1em;
+}
+nav a{
+    text-decoration:none;
+    font-weight:bold;
+    color:#030637;
+    padding-right:5%;
+}
+nav a:hover{
+    cursor:pointer;
+}
+.skrill-logo{
+    width:10%;
+    padding-left:2rem;
+}
+.skrill-logo:hover{
+    cursor:pointer;
+}
+.hero-section{
+    position:relative;
+}
+.hero-section img{
+    width:80%;
+    margin-left:2rem;
+    margin-top:2rem;
+}
+.section-one{
+    position:relative; bottom:20rem; left:5rem;
+    display:flex;
+    flex-direction:column;
+}
+.section-one h1{
+    font-size:4rem;
+    color:white;
+    padding-bottom:2rem;
+}
+.section-one p{
+    font-size:1.5rem;
+    color:white;
+}
+.video-box{
+    height:25rem;
+    width:40rem;
+    background-color:#872166;
+    margin:0 auto;
+}
+.skrill-video{
+    margin-left:2rem;
+    margin-top:3rem;
+}
+.general-info{
+    display:flex;
+    flex-direction:column;
+}
+.general-info h1{
+    font-size:3rem;
+    margin:0 auto;
+    margin-top:10rem;
+    margin-bottom:10rem;
+    border-style:solid;
+    border-color:#872166;
+    background-color:#872166;
+    color:white;
+}
+
+.general-info p{
+    width:60%;
+    border-style:solid;
+    margin-left:20rem;
+    padding:0.5rem 2rem;
+    border-color:#872166;
+    background-color:#872166;
+    color:white;
+}
+.additional-content{
+    display:flex;
+    flex-direction:column;
+}
+.additional-content h1{
+    font-size:3rem;
+    margin:0 auto;
+    margin-top:10rem;
+    margin-bottom:10rem;
+    border-style:solid;
+    border-color:#e8e3e9;
+    background-color:#e8e3e9;
+    color:#431158;
+}
+.additional-content p{
+    width:60%;
+    border-style:solid;
+    margin-left:20rem;
+    padding:0.5rem 2rem;
+    border-color:#e8e3e9;
+    background-color:#e8e3e9;
+    color:black;
+    font-weight:bold;
+}
+.skrill-awards-info{
+    display:flex;
+    flex-direction:column;
+}
+.skrill-awards-info h1{
+    font-size:3rem;
+    border-style:solid;
+    border-color:#912a70;
+    background-color:#962e75;
+    color:whitesmoke;
+    margin:0 auto;
+    margin-top:10rem;
+    margin-bottom:0.5rem;
+}
+.skrill-awards-info p{
+    width:60%;
+    border-style:solid;
+    margin-left:20rem;
+    padding:0.5rem 2rem;
+    border-color:#912a70;
+    background-color:#962e75;
+    color:whitesmoke;
+    font-weight:bold;
+}
+footer{
+    border-color:#450647;
+    margin-left:3rem;
+    margin-right:3rem;
+    margin-top:10rem;
+    border-style:solid;
+    border-left-style:none;
+    border-right-style:none;
+    border-bottom-style:none;
+}
+li{
+    display:inline-block;
+    align-items:center;
+    font-size: 16px;
+    font-weight:bold;
+    margin-bottom:0rem;
+    padding-top:3rem;
+    line-height:1px;
+}
+li a{
+    text-decoration:none;
+    color:#450647;
+    padding-right:1rem;
+}
+li a:hover{
+    color:#3C0753;
+    border-bottom-style:solid;
+    border-bottom-width:2px;
+    padding:0rem;
+}
+.playstore-image2{
+    width:10%;
+}
+.appstore-image2{
+    width:10%;
+}
+.playstore-image2:hover{
+    cursor:pointer;
+}
+.appstore-image2:hover{
+    cursor:pointer;
+}
+.powered-by-paysafe-image{
+    width:20%;
+    margin:0 80%;
+}
+.social-media img{
+width:2.5%;
+}
+footer p3{
+    font-size:12px;
+    margin-top:2rem;
+    padding-bottom:2rem;
+}
